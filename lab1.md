@@ -1,11 +1,11 @@
 # __cd__
+__cd, no arguments__
 ![Image](cd.png)
->
->`cd lecture1`
->
->Not an error
-`cd lecture1/Hello.java` error, `cd` changes the directory and you can't change a directory to a file directly
+Not an Error
+---
 
-__ls__
-`ls` Not an error
-`ls lecture1` Not an error
+__cd, path to directory__
+![Image](cd_directory.png)
+Not an Error
+---
+
