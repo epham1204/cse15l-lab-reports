@@ -16,8 +16,10 @@ Text
 ---
 Text2
 ***
-'System.out.println("Hello World!")'
+`System.out.println("Hello World!")` print Hello World
 
-#code block
+```
+# code block
 print '3 backticks or'
 print 'indent 4 spaces'
+```
