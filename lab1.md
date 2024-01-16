@@ -38,7 +38,7 @@ __`ls`, no arguments__\
 ---
 
 __`ls lecture1`, path to directory__\
-~[Image](ls_directory.png)\
+![Image](ls_directory.png)\
 * The working directory before was /home, and the working directory after is /home
 * When `ls lecture1` is run, it lists off all the available files and folders within the directory lecture1
 * Not an error
