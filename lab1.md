@@ -55,5 +55,25 @@ __`ls Hello.java`, path to file__\
 ---
 
 ## __`cat`__
+__`cat`, no arguments__\
+![Image](cat.png)\
+* The working directory before was /home, and the working directory after is /home
+* When `cat` is run, nothing happens. However, if the user inputs another line in the terminal, it will
+* duplicate the input line
+* Not an error
 
+---
 
+__`cat lecture1`, path to directory__\
+![Image](cat_directory.png)\
+* The working directory before was /home, and the working directory after is /home
+* When `cat lecture1` is run, it prints out an error stating that lecture1 is a directory.
+* This is because `cat` takes the contents of the arguments, which are usually files, and prints them out.
+* It cannot print out the contents of a directory.
+* Error
+
+__`cat Hello.java`, path to file__\
+![Image](cat_file.png)\
+* The working directory before was /home/lecture1, and the working directory after is /home/lecture1
+* When `cat Hello.java` is run, it prints out the contents of the file.
+* Not an error
