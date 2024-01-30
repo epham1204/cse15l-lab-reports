@@ -1,7 +1,7 @@
 # __Lab Report 1__
 ## __`cd`__
 __`cd`, no arguments__\
-![Image](cd.png)
+![Image](cd_new.png)
 * The working directory before was `/home/lecture1`, and the working directory after is `/home`
 * When `cd` is run with no arguments, since the current working directory is not the home directory
 * `cd` changes the directory to the previous or next-outward directory
