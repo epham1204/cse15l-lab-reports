@@ -36,10 +36,10 @@ class ChatServer {
 ```
 ![Image](chatServerOne.png)
 * The method handleRequest is called for each new entry in the URL
-*
+* 
 * The relevant argument and fields is the path that follows after the url's `/`
 * which in this case is the message and username.
-*
+* 
 * The value of the String variable `history` gets changed with each call,
 * as it concatenates the new string of message and user to a string that
 * keeps track of all messages with a newline `\n` between each message.
@@ -48,10 +48,10 @@ class ChatServer {
 
 ![Image](chatServerTwo.png)
 * The method handleRequest is called for each new entry in the URL
-*
+* 
 * The relevant argument and fields is the path that follows after the url's `/`
 * which in this case is the message and username.
-*
+* 
 * The value of the String variable `history` gets changed with each call,
 * as it concatenates the new string of message and user to a string that
 * keeps track of all messages with a newline `\n` between each message.
