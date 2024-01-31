@@ -35,24 +35,28 @@ class ChatServer {
 }
 ```
 ![Image](chatServerOne.png)
-* 1. The method handleRequest is called for each new entry in the URL
-* 2. The relevant argument and fields is the path that follows after the url's `/`
-*    which in this case is the message and username.
-* 3. The value of the String variable `history` gets changed with each call,
-*    as it concatenates the new string of message and user to a string that
-*    keeps track of all messages with a newline `\n` between each message.
-*    In this case, history changes from an empty string to one with the
-*    user as epham and the message as "This is my first message"
+* The method handleRequest is called for each new entry in the URL
+*
+* The relevant argument and fields is the path that follows after the url's `/`
+* which in this case is the message and username.
+*
+* The value of the String variable `history` gets changed with each call,
+* as it concatenates the new string of message and user to a string that
+* keeps track of all messages with a newline `\n` between each message.
+* In this case, history changes from an empty string to one with the
+* user as epham and the message as "This is my first message"
 
 ![Image](chatServerTwo.png)
-* 1. The method handleRequest is called for each new entry in the URL
-* 2. The relevant argument and fields is the path that follows after the url's `/`
-*    which in this case is the message and username.
-* 3. The value of the String variable `history` gets changed with each call,
-*    as it concatenates the new string of message and user to a string that
-*    keeps track of all messages with a newline `\n` between each message.
-*    In this case, history changes from a string with value `epham: This is my first message`
-*    to `epham: This is my first message \n LabReportTwo: This is the second message`
+* The method handleRequest is called for each new entry in the URL
+*
+* The relevant argument and fields is the path that follows after the url's `/`
+* which in this case is the message and username.
+*
+* The value of the String variable `history` gets changed with each call,
+* as it concatenates the new string of message and user to a string that
+* keeps track of all messages with a newline `\n` between each message.
+* In this case, history changes from a string with value `epham: This is my first message`
+* to `epham: This is my first message \n LabReportTwo: This is the second message`
 
 
 
