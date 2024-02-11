@@ -40,8 +40,11 @@ class ChatServer {
 ![Image](chatServerOne.png)
 * The method `handleRequest` is called for each new entry in the URL
 * 
-* The relevant argument and fields is the path that follows after the url's `/`
+* The relevant argument is the path that follows after the url's `/`
 * which in this case is the message and username.
+* The relevant field is the `history` String variable which contains
+* a list of every string from every `add-message` query. In this case,
+* initially `history` is empty.
 * 
 * The value of the String variable `history` gets changed with each call,
 * as it concatenates the new string of message and user to a string that
@@ -52,8 +55,11 @@ class ChatServer {
 ![Image](chatServerTwo.png)
 * The method `handleRequest` is called for each new entry in the URL
 * 
-* The relevant argument and fields is the path that follows after the url's `/`
+* The relevant argument is the path that follows after the url's `/`
 * which in this case is the message and username.
+* The relevant field is the `history` String variable which contains
+* a list of every string from every `add-message` query. In this case,
+* initially `history` is `"epham: This is my first message"`
 * 
 * The value of the String variable `history` gets changed with each call,
 * as it concatenates the new string of message and user to a string that
