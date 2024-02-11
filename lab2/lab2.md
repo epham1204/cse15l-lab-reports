@@ -12,10 +12,13 @@ class Handler implements URLHandler {
         if(url.getPath().contains("/add-message")){
             String[] parameters = url.getQuery().split("=");
             String message = parameters[1];
-            message = message.substring(0, message.indexOf("&"));
-            String user = parameters[2];
-            history = history.concat(String.format("%s: %s", user, message) + "\n");
-            return history;
+            if(parameters[0].equals("s") &&
+                message.substring(message.indexOf("&")).equals("&user")){
+                    message = message.substring(0, message.indexOf("&"));
+                    String user = parameters[2];
+                    history = history.concat(String.format("%s: %s", user, message) + "\n");
+                    return history;
+            }
         }
         return "Invalid Message";
     }
