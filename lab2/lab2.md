@@ -35,7 +35,7 @@ class ChatServer {
 }
 ```
 ![Image](chatServerOne.png)
-* The method handleRequest is called for each new entry in the URL
+* The method `handleRequest` is called for each new entry in the URL
 * 
 * The relevant argument and fields is the path that follows after the url's `/`
 * which in this case is the message and username.
@@ -47,7 +47,7 @@ class ChatServer {
 * user as epham and the message as "This is my first message"
 
 ![Image](chatServerTwo.png)
-* The method handleRequest is called for each new entry in the URL
+* The method `handleRequest` is called for each new entry in the URL
 * 
 * The relevant argument and fields is the path that follows after the url's `/`
 * which in this case is the message and username.
