@@ -86,5 +86,28 @@ _Command_
 _Output_
 ![Image](lessNumTwo.png)
 * Same as the other example, the command adds line numbering.
-* It is useful because you can ctrl+f and search line numbers.\
-2. ``\
+* It is useful because you can `ctrl+f` and search line numbers.\
+__Source__\
+* I found this option through the use of the `man less` command
+* in VSCode.
+2. `-K`\
+__Example 1__\
+_Command_
+![Image](lessQuitCommand.png)
+_Output_
+![Image](lessQuit.png)
+* This command lets you use an interruptable(`Ctrl+C`) to exit out of `less`.
+* This is useful because the only way to exit `less` is with `q` but
+* now you have a second option to leave `less`.  \
+__Example 2__\
+_Command_
+![Image](lessQuitCommandTwo.png)
+_Output_
+![Image](lessQuitTwo.png)
+* Same as the other example, this command lets you use `Ctrl+C` to exit
+* out of `less`.
+* This is useful because you can use the normal interruptable `Ctrl+C`
+* with another command.
+__Source__\
+* I found this option through the use of the `man less` command
+* in VSCode.
