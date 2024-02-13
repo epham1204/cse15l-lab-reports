@@ -73,13 +73,18 @@ I will be using week 4's lab, `ArrayExamples` and `ArrayTests`, specifically, th
 ## __Part 2__
 __`less`__
 1. `-N`\
-__Example 1__ 
+__Example 1__\
+_Command_
 ![Image](lessNumCommand.png)
+_Output_
 ![Image](lessNum.png)
 * This command prints out the file but adds numbering to each line.
-* This is useful because you can search the text via line number now.
-__Example 2__
+* This is useful because you can search the text via line number now.\
+__Example 2__\
+_Command_
 ![Image](lessNumCommandTwo.png)
+_Output_
 ![Image](lessNumTwo.png)
 * Same as the other example, the command adds line numbering.
-* It is useful because you can ctrl+f and search line numbers.
+* It is useful because you can ctrl+f and search line numbers.\
+2. ``\
