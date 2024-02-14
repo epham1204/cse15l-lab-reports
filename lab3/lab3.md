@@ -1,4 +1,4 @@
-# __Lab 3__
+# __Lab Report 3__
 ## __Part 1__
 I will be using week 4's lab, `ArrayExamples` and `ArrayTests`, specifically, the `testReversed` bug
 
