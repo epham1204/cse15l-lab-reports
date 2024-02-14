@@ -43,7 +43,7 @@ I will be using week 4's lab, `ArrayExamples` and `ArrayTests`, specifically, th
         return newArray;
   }
   ```
-* __Symptom__
+* __Symptom__\
 1) __Failing__
   ![Image](testFail.png)
 2) __Passing__
