@@ -122,7 +122,7 @@ _Output_
 * This is useful because you can keep the section of the file
 * that you are looking at in the same terminal, meaning you
 * can do other commands with that section rather than having
-* to `less` it every time to see that section.
+* to `less` it every time to see that section.\
 __Example 2__\
 _Command_
 ![Image](lessKeepCommandTwo.png)
@@ -144,7 +144,7 @@ _Output_
 * This command makes it so that once you scroll down to the end of the file,
 * it automatically exits out, sending you back to the terminal.
 * This is useful because it saves a bit of time by auto-exiting
-* the file.
+* the file.\
 __Example 2__\
 _Command_
 ![Image](lessExitCommandTwo.png)
@@ -153,7 +153,7 @@ _Output_
 * Same as the other example, this command exits you
 * back to terminal after reaching the end of the file.
 * It is useful because it lets you get right back to the
-* terminal after finish reading the file.
+* terminal after finish reading the file.\
 __Source__
 * I found this option through the use of the `man less` command
 * in VSCode.
