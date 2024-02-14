@@ -44,20 +44,20 @@ I will be using week 4's lab, `ArrayExamples` and `ArrayTests`, specifically, th
   }
   ```
 * __Symptom__
-1) __Failing__
+* 1) __Failing__
   ![Image](testFail.png)
-2) __Passing__
+* 2) __Passing__
   ![Image](testPass.png)
   
 * __Bug__
-1) Before
+* 1) Before
   ```
   for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
   }
   return arr;
   ```
-2) After
+* 2) After
   ```
   for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
