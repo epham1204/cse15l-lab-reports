@@ -87,7 +87,7 @@ _Output_
 ![Image](lessNumTwo.png)
 * Same as the other example, the command adds line numbering.
 * It is useful because you can `ctrl+f` and search line numbers.\
-__Source__\
+__Source__
 * I found this option through the use of the `man less` command
 * in VSCode.
 2. `-K`\
@@ -107,7 +107,7 @@ _Output_
 * Same as the other example, this command lets you use `Ctrl+C` to exit
 * out of `less`.
 * This is useful because you can use the normal interruptable `Ctrl+C`
-* with another command.
-__Source__\
+* with another command.\
+__Source__
 * I found this option through the use of the `man less` command
 * in VSCode.
