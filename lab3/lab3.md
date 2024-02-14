@@ -147,7 +147,7 @@ _Output_
 * the file.\
 __Example 2__\
 _Command_
-![Image](lessExitCommandTwo.png)
+![Image](lessExitTwoCommand.png)
 _Output_
 ![Image](lessExitTwo.png)
 * Same as the other example, this command exits you
