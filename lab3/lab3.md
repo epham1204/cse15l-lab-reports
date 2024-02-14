@@ -111,3 +111,36 @@ _Output_
 __Source__
 * I found this option through the use of the `man less` command
 * in VSCode.
+3. ``\
+__Example 1__\
+_Command_
+![Image](.png)
+_Output_
+![Image](.png)
+*
+__Example 2__\
+_Command_
+![Image](.png)
+_Output_
+![Image](.png)
+*
+__Source__
+* I found this option through the use of the `man less` command
+* in VSCode.
+4. ``\
+__Example 1__\
+_Command_
+![Image](.png)
+_Output_
+![Image](.png)
+*
+__Example 2__\
+_Command_
+![Image](.png)
+_Output_
+![Image](.png)
+*
+__Source__
+* I found this option through the use of the `man less` command
+* in VSCode.
+  
