@@ -56,5 +56,9 @@ Summary: I searched through the command history to more
 ![Image](step9_commit.png)
 ```
 Commands/Keys Pressed: `git add ListExamples.java` <enter>
-                    
+                       `git commit -m "Changed index"` <enter>
+                       `git push` <enter>
+Summary: I added ListExamples.java to the list of files to be committed.
+         I then added committed the changes and added a message.
+         Lastly, I pushed all changes back to github
 ```
