@@ -332,7 +332,7 @@ java -cp $CPATH org.junit.runner.JUnitCore listCombinerTester
 echo "Program compiled successfully!"
 ```
 ## Commands
-` bash test.sh ` was the only command used
+`bash test.sh` was the only command used
 
 ## Fix
 To fix the bug, remove the semicolons form `CPATH` and change the second semicolon to a colon.
