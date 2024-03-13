@@ -101,7 +101,9 @@ java -cp $CPATH org.junit.runner.JUnitCore listCombinerTester
 
 echo "Program compiled successfully!"
 ```
-![Image](symptom.png)
+
+## Symptom
+![Image](code.png)
 
 
 TA: Your code is mostly set up correctly. The problem seems to be in
